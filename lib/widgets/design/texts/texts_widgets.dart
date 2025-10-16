@@ -45,7 +45,7 @@ Widget richText({
   TextAlign? textAlign,
 }) {
   return RichText(
-    textAlign: textAlign ?? TextAlign.justify,
+    textAlign: textAlign ?? TextAlign.start,
     text: TextSpan(
       children: [
         TextSpan(

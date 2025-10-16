@@ -11,12 +11,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
+      debugShowCheckedModeBanner: false,
+
       title: 'Material App',
       home: HomeScreen(),
+
       theme: ThemeData(
-        appBarTheme: AppBarTheme(
-          centerTitle: true,
-        ),
+        appBarTheme: AppBarTheme(centerTitle: true),
       ),
 
     );
